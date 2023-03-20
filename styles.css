@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    height : 80px;
+    background-color: rgb(143, 153, 153);
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+}
+
+.navbar h1{
+    display: inline-block;
+    margin-left : 20px;
+    margin-top : 20px;
+    position: absolute;
+}
+
+
+.navbar img{
+    width: 45px;
+    height: auto;
+    margin-top:20px;
+    margin-left : 10px;
+
+    
+}
+a{
+    
+    text-decoration: none;
+    color : rgba(47, 43, 43, 0.896);
+}
+
+a:hover{
+   
+    color: rgb(6, 29, 6);
+    text-decoration: underline;
+}
+
+.navbar ul{
+    float: right;
+    font-size: 18px;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-top : 30px;
+    margin-inline: 20px ;
+}
+
+.f-box{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.title-section{
+    padding-top: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.f-box button{
+    padding : 15px;
+    font-size: 20px;
+    border: none;
+    color : rgb(7, 140, 85);
+}
+
+.f-box button:hover{
+    padding : 15px;
+    font-size: 20px;
+    border: none;
+    background-color : rgb(7, 140, 85);
+    color:white
+}
+
+.services{
+    margin-inline: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 15px;
+}
+.serv{
+    text-align: center;
+    border: 1px solid gray;
+    background-color: rgb(244, 241, 255);
+    padding: 12px;
+    padding-inline : 30px;
+    line-height: 2;
+}
+
+.serv img{
+    width: 80px;
+    height: 80px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+
+.serv:hover{
+    background-color: rgb(39, 42, 80);
+    color : white;
+    border:1px solid gray;
+}
+
+.foot-main{
+    margin-top:80px;
+    padding-bottom : 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    background-color: rgb(237, 237, 237);
+}
+
+.foot-c{
+    padding:30px;
+    padding-inline: 80px;
+    line-height: 2;
+}
+.t-img img{
+    margin-top: 50px;
+}
+
+#home {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    
+}
